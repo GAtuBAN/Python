@@ -6,8 +6,9 @@ ikincisayi = 1
 fibonacci = [ilk_sayı,ikincisayi]
 for i in range(10):
 
-
-    ilk_sayı,ikincisayi = ikincisayi,ilk_sayı + ikincisayi
+'''ilk sayıyı ikinci sayıya, ikinci sayıyı ilk+ikinci toplamına eşitlenir '''
+'''a, b = b, a+b '''
+    ilk_sayı, ikincisayi = ikincisayi, ilk_sayı + ikincisayi
 
     fibonacci.append(ikincisayi)
 
